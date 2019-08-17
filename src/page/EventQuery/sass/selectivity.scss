@@ -1,0 +1,96 @@
+.selectivity {
+  width: 100%;
+ .select-all {
+   width:1069px;
+   background:rgba(255,255,255,1);
+   border:1px solid rgba(238,238,238,1);
+   margin: auto;
+   margin-top: 19px;
+   padding-left: 34px;
+   .serve-item , .incident-item, .business-item {
+     height: 70px;
+     border-bottom: 1px solid #EEEEEE;
+     line-height: 70px;
+     .text {
+       margin-right: 30px;
+       color:#666666;
+       font-size: 14px;
+     }
+   }
+   .incident-item{
+     .incident-item-input {
+       .incidentBtn {
+         margin-right: 3px;
+       }
+     }
+   }
+   .business-item {
+     //按业务
+     .text {
+       margin-left: 29px;
+     }
+     .business-item-input {
+       .checkboxbtn {
+         margin-right: 3px;
+       }
+     }
+   }
+   .haveEnter {
+     position: relative;
+     .text {
+       position: absolute;
+       top: 20%;
+       margin-right: 14px;
+       margin-left: 10px;
+       color:#666666;
+       font-size: 14px;
+     }
+     .haveEnter-Btn {
+       width: 900px;
+       padding: 16px 0;
+       margin-left: 113px;
+       display: inline-block;
+     }
+     .clier {
+       position: absolute;
+       top: 20%;
+       right: 5%;
+       display: inline-block;
+       color: #004098;
+     }
+   }
+ }
+}
+.serve-item {
+}
+
+.serve-item-input , .business-item-input , .incident-item-input{
+  display: inline-block;
+  color:#333333;
+  font-size: 14px;
+}
+.input-item{
+  font-size:14px;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  padding: 8px 7px;
+}
+input[type=checkbox] {
+  display: none;
+}
+.item {
+  font-size:14px;
+  font-weight:400;
+  color:#333333;
+  padding: 8px 7px;
+  margin-right: 3px;
+}
+.text-btn {
+  font-size:14px;
+  font-weight:400;
+  padding: 11px 11px;
+  margin-right: 3px;
+  color:#333333;
+}
+
+

@@ -1,0 +1,338 @@
+    .waterContent,.salvageContent,.shipContent,.towingContent {
+         width: 100%;
+        height: auto;
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul li{
+            list-style: none;
+        }
+        & p {
+            color: #333333;
+            font-size: 24px;
+            width: 100%;
+            height: 47px;
+            line-height: 47px;
+            text-align: center;
+        }
+        .contentNei {
+            width: 96%;
+            height: auto;
+            padding: 26px;
+            margin: auto;
+            border-top: 1px solid #DDDDDD;
+            box-sizing: border-box;
+        }
+        /*船舶***/
+        .ship {
+            width: 100%;
+            height: 48px;
+            border-bottom: 1px solid #DDDDDD;
+            box-sizing: border-box;
+            font-size: 18px;
+            color: #333333;
+        }
+        .shipLeft,.cailiao {
+            width: 361px;
+            height: 47px;
+            line-height: 47px;
+            float: left;
+            position: relative;
+        }
+        .shipLeft:after, .cailiao:after{
+            content: '';
+            position: absolute;
+            top: 45px;
+            left: 0px;
+            width: 99px;
+            height: 3px;
+            background: #004098;
+        }
+        .cailiao:after{
+             top: 37px;
+        }
+        .shipRight {
+            float: right;
+            width: 54px;
+            height: 24px;
+            line-height: 24px;
+            color: #fff;
+            background: #004098;
+            text-align: center;
+            font-size: 13px;
+            margin-top: 12px;
+            cursor: pointer;
+        }
+        /*船舶信息内容***/
+        .shipcontent {
+            width: 100%;
+            height: auto;
+            padding-top: 13px;
+            box-sizing: border-box;
+        }
+        .shipcontent ul li {
+            list-style: none;
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #DDDDDD;
+            box-sizing: border-box;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .cate {
+            width: 100%;
+            padding-left: 17px;
+            height: 40px;
+            position: relative;
+            line-height: 45px;
+            color: #004098;
+            border-bottom: 1px solid #DDDDDD;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        .cate:after {
+            content: "";
+            position: absolute;
+            top: 15px;
+            left: 0;
+            width: 3px;
+            height: 19px;
+            background: #004098;
+        }
+        .rowShow {
+            width: 100%;
+            height: auto;
+        }
+        .abso {
+            position: absolute;
+            right: 0;
+            top: 18%;
+            z-index: 1;
+        }
+        .abso img {
+            width: 16px;
+            height: 15px;
+        }
+        .abso span {
+            color: #004098;
+            font-size: 14px;
+            display: inline-block;
+            margin-left: 7px;
+        }
+        .chuanName {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .delect {
+            position: absolute;
+            right: 61px;
+            top: 14px;
+            z-index: 99;
+        }
+        .shipWidth {
+            width: 95%;
+            position: relative;
+            height: auto;
+            background: mediumaquamarine;
+        }
+        .conImg {
+            position: absolute;
+            right: -42px;
+            top: 12px;
+        }
+        .conImg span {
+            color: #004098;
+            font-size: 14px;
+            margin-left: 7px;
+        }
+        .conImg img {
+            width: 18px;
+            height: 16px;
+        }
+        .contentNei {
+            /deep/.el-form-item {
+                margin-bottom: 13px;
+            }
+        }
+        .li li {
+            position: relative;
+        }
+        .delLi {
+            position: absolute;
+            right: 41px;
+            top: 10px;
+            z-index: 2;
+        }
+        .sum {
+            /deep/.el-button--primary {
+                width: 91px;
+                color: #fff;
+                background-color: #409EFF;
+                border-color: #409EFF;
+                height: 40px;
+                margin-left: 10px;
+            }
+            /deep/.el-button--default {
+                width: 91px;
+                color: #fff;
+                background-color: #409EFF;
+                border-color: #409EFF;
+                height: 40px;
+                margin-left: 10px;
+            }
+        }
+       .hello{
+          width: 100%;
+        height: auto;
+        padding: 20px 0;
+        box-sizing: border-box;
+        margin: auto; 
+        .box {
+        position: relative;
+        margin-top: 13px;
+    }
+    
+    .upload {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .upload_title {
+        width: 100%;
+        height: 50px;
+    }
+    
+    .title {
+        width: 30%;
+        height: 100%;
+        text-align: center;
+        line-height: 50px;
+        position: relative;
+        float: left;
+    }
+    
+    .title:after {
+        content: '';
+        background: url(../../../../static/img/apply/set.png) no-repeat center;
+        width: 19px;
+        height: 17px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 10%;
+        margin: auto;
+    }
+    
+    .radio {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+    
+    .upload-first {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: left;
+        padding-left: 40px;
+        position: relative;
+        background: #c0d9f9;
+        box-sizing: border-box;
+    }
+    
+    .upload-first:after {
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 14px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 20px;
+        background: url(../../../../static/img/apply/triangle.png) no-repeat center;
+    }
+    
+    .upload_first {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 20px;
+        background: url(../../../../static/img/apply/upload.png) no-repeat center;
+    }
+    
+    .el-button,
+    .el-button--primary {
+        /*  display: none;*/
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        background: #c0d9f9 !important;
+        border: none;
+    }
+    
+    .upload-demo {
+        width: 360px;
+        padding-bottom: 10px !important;
+        line-height: 0;
+    }
+    
+    .box {
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+    
+    .box1 {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    
+    .el-upload-list__item {
+        height: 40px !important;
+        text-align: left !important;
+        padding-left: 20px !important;
+        box-sizing: border-box;
+        margin-top: 0 !important;
+    }
+    
+    .el-upload-list {
+        height: 40px !important;
+    }
+    
+    .el-upload-list__item:first-child {
+        margin-top: 0 !important;
+    }
+    
+    .el-upload-list__item-name {
+        text-align: left !important;
+    }
+    
+    .shipR {
+        position: absolute;
+        top: 10px;
+        right: 6px;
+    }
+    
+    .shipUpload {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #dddddd;
+    }
+    
+    .el-button .el-button--primary {
+        color: #333333 !important;
+        font-size: 14px;
+        img {
+            width: 15px;
+            height: 15px;
+        }
+    }
+       } 
+    }
